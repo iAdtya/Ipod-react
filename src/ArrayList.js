@@ -1,4 +1,6 @@
-
+import song1 from "./Songs/Oliver-Anthony.mp3"
+import song2 from "./Songs/Without-Me.mp3"
+import song3 from "./Songs/Havana.mp3"
 
 
 export const ArrayList = {
@@ -111,13 +113,6 @@ export const ArrayList = {
       source: song3,
       duration: 30,
       icon: "https://c.saavncdn.com/997/Dil-Tod-Ke-Hindi-2020-20200714234001-500x500.jpg",
-    },
-    {
-      parentIndex: 4,
-      name: "Naah",
-      source: song4,
-      duration: 30,
-      icon: "https://upload.wikimedia.org/wikipedia/en/8/8a/Naah_Cover_Art.jpeg",
     },
   ],
   Album: [

@@ -1,5 +1,9 @@
 import React, { Component } from "react";
 import styles from "./styles/IPodDisplay.module.css";
+import { ArrayList } from "./ArrayList";
+import SinglePage from "./Singlepage";
+import Song from "./Song";
+import Menu from "./Menu";
 
 export default class IPodDisplay extends Component {
   constructor(){
@@ -8,7 +12,14 @@ export default class IPodDisplay extends Component {
       time : "00:00:00"
     }
   }
+  componentDidMount() {
+    setInterval(() => this.setState({ time: new Date().toLocaleTimeString() }), 1000)
+}
+
   render() {
+    const { currentSong, singlePage, selectedMenu } = this.props;
+    const menuName = Object.keys(ArrayList)[selectedMenu];
+    const isSongMenu = (menuName === "Songs" && singlePage);
     return (
       <>
         <div className={styles.displaySide}>
@@ -31,7 +42,8 @@ export default class IPodDisplay extends Component {
             </div>
           </div>
 
-          
+          {!currentSong.paused || isSongMenu ? <Song {...this.props} /> : !singlePage ? <Menu {...this.props} /> : <SinglePage {...this.props} />}
+
 
         </div>
       </>
