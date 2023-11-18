@@ -1,6 +1,9 @@
 import song1 from "./Songs/Oliver-Anthony.mp3"
 import song2 from "./Songs/Without-Me.mp3"
 import song3 from "./Songs/Havana.mp3"
+import oliver from "./Image/oliver.webp"
+import Halsey from "./Image/Halsey.webp"
+import Havana from "./Image/Havana.webp"
 
 
 export const ArrayList = {
@@ -98,21 +101,21 @@ export const ArrayList = {
       name: "Oliver Anthony",
       source: song1,
       duration: 28,
-      // icon: "https://a10.gaanacdn.com/gn_img/albums/7rVW1aRWk5/VW1aNYVBWk/size_l.webp",
+      icon: oliver ,
     },
     {
       parentIndex: 4,
       name: "Without Me",
       source: song2,
       duration: 31,
-      // icon: "https://i1.sndcdn.com/artworks-iXfwM6UF1SG3qugF-771jaA-t500x500.jpg",
+      icon: Halsey,
     },
     {
       parentIndex: 4,
       name: "Havana",
       source: song3,
       duration: 30,
-      // icon: "https://c.saavncdn.com/997/Dil-Tod-Ke-Hindi-2020-20200714234001-500x500.jpg",
+      icon: Havana,
     },
   ],
   Album: [
