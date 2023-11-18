@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: rgb(235, 102, 102);
+    background-color: white;
     border: 5px solid silver;
 }
 
@@ -31,7 +31,7 @@
     font-weight: 900;
     line-height: 0;
     position: absolute;
-    color: #12cfd9;
+    color: #000000;
     border: none;
     cursor: pointer;
 }
@@ -43,16 +43,15 @@
 }
 
 .back {
-    left: 0;
+    left: 5px;
 }
 
 .forward {
-    right: 0;
+    right: 5px;
 }
-
 .playPause {
     font-size: 25px;
-    bottom: 20px;
+    bottom: 15%;
     padding-right: 11px;
 }
 

@@ -95,24 +95,24 @@ export const ArrayList = {
   Songs: [
     {
       parentIndex: 4,
-      name: "Jai Shree Ram",
+      name: "Oliver Anthony",
       source: song1,
       duration: 28,
-      icon: "https://a10.gaanacdn.com/gn_img/albums/7rVW1aRWk5/VW1aNYVBWk/size_l.webp",
+      // icon: "https://a10.gaanacdn.com/gn_img/albums/7rVW1aRWk5/VW1aNYVBWk/size_l.webp",
     },
     {
       parentIndex: 4,
-      name: "Kordhell",
+      name: "Without Me",
       source: song2,
       duration: 31,
-      icon: "https://i1.sndcdn.com/artworks-iXfwM6UF1SG3qugF-771jaA-t500x500.jpg",
+      // icon: "https://i1.sndcdn.com/artworks-iXfwM6UF1SG3qugF-771jaA-t500x500.jpg",
     },
     {
       parentIndex: 4,
-      name: "Dil Tod ke",
+      name: "Havana",
       source: song3,
       duration: 30,
-      icon: "https://c.saavncdn.com/997/Dil-Tod-Ke-Hindi-2020-20200714234001-500x500.jpg",
+      // icon: "https://c.saavncdn.com/997/Dil-Tod-Ke-Hindi-2020-20200714234001-500x500.jpg",
     },
   ],
   Album: [
